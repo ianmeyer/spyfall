@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.iantmeyer.spyfall.fragment.search.SearchFragment"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <include layout="@layout/layout_setup_timer"/>
+
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="140dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="20dp"
+                android:enabled="false"
+                android:text="@string/button_start"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/header_players"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/title_players"
+            android:textSize="14sp"
+            android:transitionName="header_players"/>
+
+        <include
+            android:id="@+id/list_players"
+            layout="@layout/layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="4dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

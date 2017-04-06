@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingEnd="10dp"
+              android:paddingStart="10dp">
+
+    <ToggleButton
+        android:id="@+id/button_lock"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_lock"
+        android:padding="5dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""/>
+
+    <Button
+        android:id="@+id/button_reveal"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/play_reveal_role"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.iantmeyer.spyfall.MainActivity">
+
+    <item
+        android:id="@+id/menu_last_game"
+        android:orderInCategory="10"
+        android:title="@string/menu_last_game"
+        app:showAsAction="never"/>
+</menu>

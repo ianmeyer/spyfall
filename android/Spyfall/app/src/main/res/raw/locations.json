@@ -1,0 +1,732 @@
+{
+  "locations": [
+    {
+      "title": "Airplane",
+      "roles": {
+        "first class passenger": {
+          "title": "First Class Passenger"
+        },
+        "air marshall": {
+          "title": "Air Marshal"
+        },
+        "mechanic": {
+          "title": "Mechanic"
+        },
+        "air hostess": {
+          "title": "Air Hostess"
+        },
+        "copilot": {
+          "title": "Co-Pilot"
+        },
+        "captain": {
+          "title": "Captain"
+        },
+        "economy class passenger": {
+          "title": "Economy Class Passenger"
+        }
+      }
+    },
+    {
+      "title": "Bank",
+      "roles": {
+        "armored car driver": {
+          "title": "Armored Car Driver"
+        },
+        "manager": {
+          "title": "Manager"
+        },
+        "consultant": {
+          "title": "Consultant"
+        },
+        "robber": {
+          "title": "Robber"
+        },
+        "security guard": {
+          "title": "Security Guard"
+        },
+        "teller": {
+          "title": "Teller"
+        },
+        "customer": {
+          "title": "Customer"
+        }
+      }
+    },
+    {
+      "title": "Beach",
+      "roles": {
+        "beach waitress": {
+          "title": "Beach Waitress"
+        },
+        "kite surfer": {
+          "title": "Kite Surfer"
+        },
+        "lifeguard": {
+          "title": "Lifeguard"
+        },
+        "thief": {
+          "title": "Thief"
+        },
+        "beach photographer": {
+          "title": "Beach Photographer"
+        },
+        "ice cream truck driver": {
+          "title": "Ice Cream Truck Driver"
+        },
+        "beach goer": {
+          "title": "Beach Goer"
+        }
+      }
+    },
+    {
+      "title": "Casino",
+      "roles": {
+        "bartender": {
+          "title": "Bartender",
+          "head security guard": {
+            "title": "Head Security Guard"
+          },
+          "bouncer": {
+            "title": "Bouncer"
+          },
+          "manager": {
+            "title": "Manager"
+          },
+          "hustler": {
+            "title": "Hustler"
+          },
+          "dealer": {
+            "title": "Dealer"
+          },
+          "gambler": {
+            "title": "Gambler"
+          }
+        }
+      }
+    },
+    {
+      "title": "Cathedral",
+      "roles": {
+        "priest": {
+          "title": "Priest"
+        },
+        "beggar": {
+          "title": "Beggar"
+        },
+        "sinner": {
+          "title": "Sinner"
+        },
+        "tourist": {
+          "title": "Tourist"
+        },
+        "sponsor": {
+          "title": "Sponsor"
+        },
+        "chorister": {
+          "title": "Chorister"
+        },
+        "parishioner": {
+          "title": "Parishioner"
+        }
+      }
+    },
+    {
+      "title": "Circus Tent",
+      "roles": {
+        "acrobat": {
+          "title": "Acrobat"
+        },
+        "animal trainer": {
+          "title": "Animal Trainer"
+        },
+        "magician": {
+          "title": "Magician"
+        },
+        "fire eater": {
+          "title": "Fire Eater"
+        },
+        "clown": {
+          "title": "Clown"
+        },
+        "juggler": {
+          "title": "Juggler"
+        },
+        "visitor": {
+          "title": "Visitor"
+        }
+      }
+    },
+    {
+      "title": "Corporate Party",
+      "roles": {
+        "entertainer": {
+          "title": "Entertainer"
+        },
+        "manager": {
+          "title": "Manager"
+        },
+        "unwanted guest": {
+          "title": "Unwanted Guest"
+        },
+        "owner": {
+          "title": "Owner"
+        },
+        "secretary": {
+          "title": "Secretary"
+        },
+        "delivery boy": {
+          "title": "Delivery Boy"
+        },
+        "accountant": {
+          "title": "Accountant"
+        }
+      }
+    },
+    {
+      "title": "Crusader Army",
+      "roles": {
+        "monk": {
+          "title": "Monk",
+          "imprisoned saracen": {
+            "title": "Imprisoned Saracen"
+          },
+          "servant": {
+            "title": "Servant"
+          },
+          "bishop": {
+            "title": "Bishop"
+          },
+          "squire": {
+            "title": "Squire"
+          },
+          "archer": {
+            "title": "Archer"
+          },
+          "knight": {
+            "title": "Knight"
+          }
+        }
+      }
+    },
+    {
+      "title": "Day Spa",
+      "roles": {
+        "stylist": {
+          "title": "Stylist"
+        },
+        "masseuse": {
+          "title": "Masseuse"
+        },
+        "manicurist": {
+          "title": "Manicurist"
+        },
+        "makeup artist": {
+          "title": "Makeup Artist"
+        },
+        "dermatologist": {
+          "title": "Dermatologist"
+        },
+        "beautician": {
+          "title": "Beautician"
+        },
+        "customer": {
+          "title": "Customer"
+        }
+      }
+    },
+    {
+      "title": "Embassy",
+      "roles": {
+        "security guard": {
+          "title": "Security Guard"
+        },
+        "secretary": {
+          "title": "Secretary"
+        },
+        "ambassador": {
+          "title": "Ambassador"
+        },
+        "tourist": {
+          "title": "Tourist"
+        },
+        "refugee": {
+          "title": "Refugee"
+        },
+        "diplomat": {
+          "title": "Diplomat"
+        },
+        "government official": {
+          "title": "Government Official"
+        }
+      }
+    },
+    {
+      "title": "Hospital",
+      "roles": {
+        "nurse": {
+          "title": "Nurse"
+        },
+        "doctor": {
+          "title": "Doctor"
+        },
+        "anesthesiologist": {
+          "title": "Anesthesiologist"
+        },
+        "intern": {
+          "title": "Intern"
+        },
+        "therapist": {
+          "title": "Therapist"
+        },
+        "surgeon": {
+          "title": "Surgeon"
+        },
+        "patient": {
+          "title": "Patient"
+        }
+      }
+    },
+    {
+      "title": "Hotel",
+      "roles": {
+        "doorman": {
+          "title": "Doorman"
+        },
+        "security guard": {
+          "title": "Security Guard"
+        },
+        "manager": {
+          "title": "Manager"
+        },
+        "housekeeper": {
+          "title": "Housekeeper"
+        },
+        "bartender": {
+          "title": "Bartender"
+        },
+        "bellman": {
+          "title": "Bellman"
+        },
+        "customer": {
+          "title": "Customer"
+        }
+      }
+    },
+    {
+      "title": "Military Base",
+      "roles": {
+        "deserter": {
+          "title": "Deserter"
+        },
+        "colonel": {
+          "title": "Colonel"
+        },
+        "medic": {
+          "title": "Medic"
+        },
+        "sniper": {
+          "title": "Sniper"
+        },
+        "officer": {
+          "title": "Officer"
+        },
+        "tank engineer": {
+          "title": "Tank Engineer"
+        },
+        "soldier": {
+          "title": "Soldier"
+        }
+      }
+    },
+    {
+      "title": "Movie Studio",
+      "roles": {
+        "stunt man": {
+          "title": "Stunt Man"
+        },
+        "sound engineer": {
+          "title": "Sound Engineer"
+        },
+        "camera man": {
+          "title": "Camera Man"
+        },
+        "director": {
+          "title": "Director"
+        },
+        "costume artist": {
+          "title": "Costume Artist"
+        },
+        "producer": {
+          "title": "Producer"
+        },
+        "actor": {
+          "title": "Actor"
+        }
+      }
+    },
+    {
+      "title": "Ocean Liner",
+      "roles": {
+        "cook": {
+          "title": "Cook"
+        },
+        "captain": {
+          "title": "Captain"
+        },
+        "bartender": {
+          "title": "Bartender"
+        },
+        "musician": {
+          "title": "Musician"
+        },
+        "waiter": {
+          "title": "Waiter"
+        },
+        "mechanic": {
+          "title": "Mechanic"
+        },
+        "rich passenger": {
+          "title": "Rich Passenger"
+        }
+      }
+    },
+    {
+      "title": "Passenger Train",
+      "roles": {
+        "mechanic": {
+          "title": "Mechanic"
+        },
+        "border patrol": {
+          "title": "Border Patrol"
+        },
+        "train attendant": {
+          "title": "Train Attendant"
+        },
+        "restaurant chef": {
+          "title": "Restaurant Chef"
+        },
+        "train driver": {
+          "title": "Train Driver"
+        },
+        "stoker": {
+          "title": "Stoker (Boilerman)"
+        },
+        "passenger": {
+          "title": "Passenger"
+        }
+      }
+    },
+    {
+      "title": "Pirate Ship",
+      "roles": {
+        "cook": {
+          "title": "Cook"
+        },
+        "slave": {
+          "title": "Slave"
+        },
+        "cannoneer": {
+          "title": "Cannoneer"
+        },
+        "tied up prisoner": {
+          "title": "Tied Up Prisoner"
+        },
+        "cabin boy": {
+          "title": "Cabin Boy"
+        },
+        "brave captain": {
+          "title": "Brave Captain"
+        },
+        "sailor": {
+          "title": "Sailor"
+        }
+      }
+    },
+    {
+      "title": "Polar Station",
+      "roles": {
+        "medic": {
+          "title": "Medic"
+        },
+        "expedition leader": {
+          "title": "Expedition Leader"
+        },
+        "biologist": {
+          "title": "Biologist"
+        },
+        "radioman": {
+          "title": "Radioman"
+        },
+        "hydrologist": {
+          "title": "Hydrologist"
+        },
+        "meteorologist": {
+          "title": "Meteorologist"
+        },
+        "geologist": {
+          "title": "Geologist"
+        }
+      }
+    },
+    {
+      "title": "Police Station",
+      "roles": {
+        "detective": {
+          "title": "Detective"
+        },
+        "lawyer": {
+          "title": "Lawyer"
+        },
+        "journalist": {
+          "title": "Journalist"
+        },
+        "criminalist": {
+          "title": "Criminalist"
+        },
+        "archivist": {
+          "title": "Archivist"
+        },
+        "criminal": {
+          "title": "Criminal"
+        },
+        "patrol officer": {
+          "title": "Patrol Officer"
+        }
+      }
+    },
+    {
+      "title": "Restaurant",
+      "roles": {
+        "musician": {
+          "title": "Musician"
+        },
+        "bouncer": {
+          "title": "Bouncer"
+        },
+        "hostess": {
+          "title": "Hostess"
+        },
+        "head chef": {
+          "title": "Head Chef"
+        },
+        "food critic": {
+          "title": "Food Critic"
+        },
+        "waiter": {
+          "title": "Waiter"
+        },
+        "customer": {
+          "title": "Customer"
+        }
+      }
+    },
+    {
+      "title": "School",
+      "roles": {
+        "gym teacher": {
+          "title": "Gym Teacher"
+        },
+        "principal": {
+          "title": "Principal"
+        },
+        "security guard": {
+          "title": "Security Guard"
+        },
+        "janitor": {
+          "title": "Janitor"
+        },
+        "cafeteria lady": {
+          "title": "Cafeteria Lady"
+        },
+        "maintenance man": {
+          "title": "Maintenance Man"
+        },
+        "student": {
+          "title": "Student"
+        }
+      }
+    },
+    {
+      "title": "Service Station",
+      "roles": {
+        "manager": {
+          "title": "Manager"
+        },
+        "tire specialist": {
+          "title": "Tire Specialist}"
+        },
+        "biker": {
+          "title": "Biker"
+        },
+        "car owner": {
+          "title": "Car Owner"
+        },
+        "car wash operator": {
+          "title": "Car Wash Operator"
+        },
+        "electrician": {
+          "title": "Electrician"
+        },
+        "auto mechanic": {
+          "title": "Auto Mechanic"
+        }
+      }
+    },
+    {
+      "title": "Space Station",
+      "roles": {
+        "engineer": {
+          "title": "Engineer"
+        },
+        "alien": {
+          "title": "Alien"
+        },
+        "pilot": {
+          "title": "Pilot"
+        },
+        "commander": {
+          "title": "Commander"
+        },
+        "scientist": {
+          "title": "Scientist"
+        },
+        "doctor": {
+          "title": "Doctor"
+        },
+        "space tourist": {
+          "title": "Space Tourist"
+        }
+      }
+    },
+    {
+      "title": "Submarine",
+      "roles": {
+        "cook": {
+          "title": "Cook"
+        },
+        "commander": {
+          "title": "Commander"
+        },
+        "sonar technician": {
+          "title": "Sonar Technician"
+        },
+        "electronics technician": {
+          "title": "Electronics Technician"
+        },
+        "radioman": {
+          "title": "Radioman"
+        },
+        "navigator": {
+          "title": "Navigator"
+        },
+        "sailor": {
+          "title": "Sailor"
+        }
+      }
+    },
+    {
+      "title": "Supermarket",
+      "roles": {
+        "cashier": {
+          "title": "Cashier"
+        },
+        "butcher": {
+          "title": "Butcher"
+        },
+        "janitor": {
+          "title": "Janitor"
+        },
+        "security guard": {
+          "title": "Security Guard"
+        },
+        "food sample demonstrator": {
+          "title": "Food Sample Demonstrator"
+        },
+        "shelf stocker": {
+          "title": "Shelf Stocker"
+        },
+        "customer": {
+          "title": "Customer"
+        }
+      }
+    },
+    {
+      "title": "Theatre",
+      "roles": {
+        "coat checker": {
+          "title": "Coat Checker"
+        },
+        "prompter": {
+          "title": "Prompter"
+        },
+        "cashier": {
+          "title": "Cashier"
+        },
+        "director": {
+          "title": "Director"
+        },
+        "actor": {
+          "title": "Actor"
+        },
+        "crew man": {
+          "title": "Crew Man"
+        },
+        "audience member": {
+          "title": "Audience Member"
+        }
+      }
+    },
+    {
+      "title": "University",
+      "roles": {
+        "graduate student": {
+          "title": "Graduate Student"
+        },
+        "professor": {
+          "title": "Professor"
+        },
+        "dean": {
+          "title": "Dean"
+        },
+        "psychologist": {
+          "title": "Psychologist"
+        },
+        "maintenance man": {
+          "title": "Maintenance Worker"
+        },
+        "janitor": {
+          "title": "Janitor"
+        },
+        "student": {
+          "title": "Student"
+        }
+      }
+    },
+    {
+      "title": "World War II Squad",
+      "roles": {
+        "resistance fighter": {
+          "title": "Resistance Fighter"
+        },
+        "radioman": {
+          "title": "Radio Operator"
+        },
+        "scout": {
+          "title": "Scout"
+        },
+        "medic": {
+          "title": "Medic"
+        },
+        "cook": {
+          "title": "Cook"
+        },
+        "imprisoned nazi": {
+          "title": "Imprisoned Nazi"
+        },
+        "soldier": {
+          "title": "Soldier"
+        }
+      }
+    }
+  ]
+}

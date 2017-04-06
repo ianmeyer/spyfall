@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/content_main"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                tools:context="com.iantmeyer.spyfall.fragment.play.PlayFragment"
+                tools:showIn="@layout/fragment_play">
+
+    <FrameLayout
+        android:id="@+id/role_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_role_hidden"/>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/role"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/layout_role_shown"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

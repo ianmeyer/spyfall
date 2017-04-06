@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iantmeyer.spyfall.fragment.search.SearchFragment"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                                            android:id="@+id/recycler_view"
+                                            android:name="com.iantmeyer.spyfall.fragment.ListFragment"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            app:layoutManager="LinearLayoutManager"/>
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/create_contact"
+            android:layout_centerHorizontal="true"
+            android:layout_width="192dp"
+            android:layout_height="56dp"
+            android:text="Create new contact"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

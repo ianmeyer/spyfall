@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/item_game"
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:tint="@color/gameTextColor"
+        android:src="@drawable/ic_gps"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_toRightOf="@+id/icon"
+        android:textSize="14sp"/>
+
+</RelativeLayout>

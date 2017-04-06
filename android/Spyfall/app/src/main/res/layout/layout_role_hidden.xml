@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_players"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_players"
+            android:textSize="14sp"
+            android:transitionName="header_players"/>
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:id="@+id/recycler_view_players"
+                                                android:name="com.iantmeyer.spyfall.fragment.ListFragment"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                app:layoutManager="GridLayoutManager"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/title_locations"
+            android:textSize="14sp"/>
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                android:id="@+id/recycler_view_locations"
+                                                android:name="com.iantmeyer.spyfall.fragment.ListFragment"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                app:layoutManager="GridLayoutManager"/>
+
+
+    </LinearLayout>
+</ScrollView>

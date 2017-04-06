@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EEEEEE</color>
+    <color name="colorSecondary">#AAAAAA</color>
+
+    <color name="gameTextColor">#444444</color>
+
+    <color name="colorButtonNormal">#CCCCCC</color>
+    <color name="colorButtonHighlight">#AA0000</color>
+</resources>
